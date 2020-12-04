@@ -3,6 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+console.log("Here we go!");
+
 createApp(App)
   .use(store)
   .use(router)
